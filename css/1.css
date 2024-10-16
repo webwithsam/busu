@@ -1,0 +1,95 @@
+
+.back,.sa{
+    background-image: linear-gradient(to right, rgb(51, 102, 51) ,rgb(176, 236, 78));
+   
+}
+/* .pad{
+   padding-top: 50px;
+} */
+ .sp{
+    position:sticky;
+    top:0;
+    z-index: 3;
+} 
+.s1{
+    background-color: rgb(211, 236, 65);
+}
+li a:hover{
+    background-color: rgb(30, 66, 35);
+
+}
+.navbar-nav a{
+    color: aliceblue;
+}
+.bk{
+    background-color: rgb(221, 238, 64);
+}
+.col p{
+text-align: center;
+}
+h1{
+    text-transform:uppercase;
+    
+}
+.head{
+    text-decoration:underline;
+}
+.hi{
+    font-size: medium;
+    text-align: center;
+}
+.hi img{
+    margin: 0 auto;
+}
+.row1{
+    gap: 0.01px;
+    padding-top: 2px;
+}
+/* .row2{
+    gap: 30px;
+} */
+.sam{
+   height:600px;
+}
+.button{
+    width: 50%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.bak{
+    background-color: rgb(190, 236, 152);
+}
+.li li{
+    list-style: none;
+    padding: 10px;
+   
+}
+.li li:hover{
+    background-color: blue;
+}
+.p p{
+    text-align:start;
+}
+.chini{
+    position:sticky;
+    bottom: 0;
+}
+.line{
+    content: " ";
+    width: 50%;
+    height: 2px;
+    margin: 0px auto;
+    background-color: brown;
+}
+.mwisho{
+    background-color: rgb(13, 68, 68);
+    color: aliceblue;
+}
+@media only screen and (max-width:527px){
+   li{
+    text-align: center;
+   } 
+   s1{
+    display: block;
+   }
+}
